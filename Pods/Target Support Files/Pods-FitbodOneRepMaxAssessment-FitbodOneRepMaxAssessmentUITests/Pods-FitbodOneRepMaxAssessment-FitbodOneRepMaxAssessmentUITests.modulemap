@@ -1,0 +1,6 @@
+framework module Pods_FitbodOneRepMaxAssessment_FitbodOneRepMaxAssessmentUITests {
+  umbrella header "Pods-FitbodOneRepMaxAssessment-FitbodOneRepMaxAssessmentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

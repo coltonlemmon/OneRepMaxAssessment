@@ -3,18 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13CF916C4236AB541491A4F3 /* Pods_FitbodOneRepMaxAssessment_FitbodOneRepMaxAssessmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4362EE9039F52F4FB5B8A519 /* Pods_FitbodOneRepMaxAssessment_FitbodOneRepMaxAssessmentUITests.framework */; };
 		4D777F8C26054940005BA0CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D777F8B26054940005BA0CB /* AppDelegate.swift */; };
 		4D777F8E26054940005BA0CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D777F8D26054940005BA0CB /* SceneDelegate.swift */; };
 		4D777F9026054940005BA0CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D777F8F26054940005BA0CB /* ViewController.swift */; };
 		4D777F9326054940005BA0CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D777F9126054940005BA0CB /* Main.storyboard */; };
 		4D777F9526054942005BA0CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D777F9426054942005BA0CB /* Assets.xcassets */; };
 		4D777F9826054942005BA0CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D777F9626054942005BA0CB /* LaunchScreen.storyboard */; };
-		4D777FA326054942005BA0CB /* FitbodOneRepMaxAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D777FA226054942005BA0CB /* FitbodOneRepMaxAssessmentTests.swift */; };
-		4D777FAE26054942005BA0CB /* FitbodOneRepMaxAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D777FAD26054942005BA0CB /* FitbodOneRepMaxAssessmentUITests.swift */; };
+		4D777FBF26054A32005BA0CB /* workoutData.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4D777FBE26054A32005BA0CB /* workoutData.txt */; };
+		4D777FCD26054D7E005BA0CB /* WorkoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D777FCC26054D7E005BA0CB /* WorkoutController.swift */; };
+		4D777FD226056174005BA0CB /* OneRepMaxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D777FD126056174005BA0CB /* OneRepMaxTableViewCell.swift */; };
+		4D777FE12605B098005BA0CB /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D777FE02605B098005BA0CB /* ChartViewController.swift */; };
+		4D777FE62606DF29005BA0CB /* ChartDataFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D777FE52606DF29005BA0CB /* ChartDataFactory.swift */; };
+		4D777FEF26085B1F005BA0CB /* ExerciseHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D777FEE26085B1F005BA0CB /* ExerciseHistory.swift */; };
+		4D77800C26085D5B005BA0CB /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D77800B26085D5B005BA0CB /* Workout.swift */; };
+		4DECC4B426085E040088920F /* ORMDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DECC4B326085E040088920F /* ORMDateFormatter.swift */; };
+		4DECC4B926085F0A0088920F /* Double+StringValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DECC4B826085F0A0088920F /* Double+StringValue.swift */; };
+		4DECC4C6260866020088920F /* DateValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DECC4C5260866020088920F /* DateValueFormatter.swift */; };
+		4DECC4CB2608664A0088920F /* Chartable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DECC4CA2608664A0088920F /* Chartable.swift */; };
+		4DECC4DB26094A2D0088920F /* WorkoutError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DECC4DA26094A2D0088920F /* WorkoutError.swift */; };
+		D0FCAD665CF1D3A92578F313 /* Pods_FitbodOneRepMaxAssessmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD24073620C72D231E681BF9 /* Pods_FitbodOneRepMaxAssessmentTests.framework */; };
+		DB5753E58A42AE4D20F3EC3B /* Pods_FitbodOneRepMaxAssessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7BE0D9668427468867C2F5 /* Pods_FitbodOneRepMaxAssessment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4362EE9039F52F4FB5B8A519 /* Pods_FitbodOneRepMaxAssessment_FitbodOneRepMaxAssessmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitbodOneRepMaxAssessment_FitbodOneRepMaxAssessmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D777F8826054940005BA0CB /* FitbodOneRepMaxAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitbodOneRepMaxAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D777F8B26054940005BA0CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D777F8D26054940005BA0CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,11 +58,27 @@
 		4D777F9726054942005BA0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D777F9926054942005BA0CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D777F9E26054942005BA0CB /* FitbodOneRepMaxAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitbodOneRepMaxAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D777FA226054942005BA0CB /* FitbodOneRepMaxAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitbodOneRepMaxAssessmentTests.swift; sourceTree = "<group>"; };
-		4D777FA426054942005BA0CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D777FA926054942005BA0CB /* FitbodOneRepMaxAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitbodOneRepMaxAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D777FAD26054942005BA0CB /* FitbodOneRepMaxAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitbodOneRepMaxAssessmentUITests.swift; sourceTree = "<group>"; };
-		4D777FAF26054942005BA0CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D777FBE26054A32005BA0CB /* workoutData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = workoutData.txt; sourceTree = "<group>"; };
+		4D777FCC26054D7E005BA0CB /* WorkoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutController.swift; sourceTree = "<group>"; };
+		4D777FD126056174005BA0CB /* OneRepMaxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneRepMaxTableViewCell.swift; sourceTree = "<group>"; };
+		4D777FE02605B098005BA0CB /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		4D777FE52606DF29005BA0CB /* ChartDataFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDataFactory.swift; sourceTree = "<group>"; };
+		4D777FEE26085B1F005BA0CB /* ExerciseHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseHistory.swift; sourceTree = "<group>"; };
+		4D77800B26085D5B005BA0CB /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		4DECC4B326085E040088920F /* ORMDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORMDateFormatter.swift; sourceTree = "<group>"; };
+		4DECC4B826085F0A0088920F /* Double+StringValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+StringValue.swift"; sourceTree = "<group>"; };
+		4DECC4C5260866020088920F /* DateValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValueFormatter.swift; sourceTree = "<group>"; };
+		4DECC4CA2608664A0088920F /* Chartable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chartable.swift; sourceTree = "<group>"; };
+		4DECC4DA26094A2D0088920F /* WorkoutError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutError.swift; sourceTree = "<group>"; };
+		5C5CE6FA4C06202A6DBF0577 /* Pods-FitbodOneRepMaxAssessmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitbodOneRepMaxAssessmentTests.release.xcconfig"; path = "Target Support Files/Pods-FitbodOneRepMaxAssessmentTests/Pods-FitbodOneRepMaxAssessmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		7786844C5AF57237A42C68D7 /* Pods-FitbodOneRepMaxAssessment-FitbodOneRepMaxAssessmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitbodOneRepMaxAssessment-FitbodOneRepMaxAssessmentUITests.release.xcconfig"; path = "Target Support Files/Pods-FitbodOneRepMaxAssessment-FitbodOneRepMaxAssessmentUITests/Pods-FitbodOneRepMaxAssessment-FitbodOneRepMaxAssessmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD24073620C72D231E681BF9 /* Pods_FitbodOneRepMaxAssessmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitbodOneRepMaxAssessmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41FA8ADD07BE5B5D989EF30 /* Pods-FitbodOneRepMaxAssessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitbodOneRepMaxAssessment.debug.xcconfig"; path = "Target Support Files/Pods-FitbodOneRepMaxAssessment/Pods-FitbodOneRepMaxAssessment.debug.xcconfig"; sourceTree = "<group>"; };
+		D27F8A5B32F9C3CE61D6406A /* Pods-FitbodOneRepMaxAssessmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitbodOneRepMaxAssessmentTests.debug.xcconfig"; path = "Target Support Files/Pods-FitbodOneRepMaxAssessmentTests/Pods-FitbodOneRepMaxAssessmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC9439A69E10BCBA8FCA15E7 /* Pods-FitbodOneRepMaxAssessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitbodOneRepMaxAssessment.release.xcconfig"; path = "Target Support Files/Pods-FitbodOneRepMaxAssessment/Pods-FitbodOneRepMaxAssessment.release.xcconfig"; sourceTree = "<group>"; };
+		F5885802A1F13EBED468DAFB /* Pods-FitbodOneRepMaxAssessment-FitbodOneRepMaxAssessmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitbodOneRepMaxAssessment-FitbodOneRepMaxAssessmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-FitbodOneRepMaxAssessment-FitbodOneRepMaxAssessmentUITests/Pods-FitbodOneRepMaxAssessment-FitbodOneRepMaxAssessmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA7BE0D9668427468867C2F5 /* Pods_FitbodOneRepMaxAssessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitbodOneRepMaxAssessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB5753E58A42AE4D20F3EC3B /* Pods_FitbodOneRepMaxAssessment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0FCAD665CF1D3A92578F313 /* Pods_FitbodOneRepMaxAssessmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13CF916C4236AB541491A4F3 /* Pods_FitbodOneRepMaxAssessment_FitbodOneRepMaxAssessmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,9 +113,9 @@
 			isa = PBXGroup;
 			children = (
 				4D777F8A26054940005BA0CB /* FitbodOneRepMaxAssessment */,
-				4D777FA126054942005BA0CB /* FitbodOneRepMaxAssessmentTests */,
-				4D777FAC26054942005BA0CB /* FitbodOneRepMaxAssessmentUITests */,
 				4D777F8926054940005BA0CB /* Products */,
+				87BBF4724D469EBF9881EA39 /* Pods */,
+				DE38E8B4EC60E3A009396E0A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +134,12 @@
 			children = (
 				4D777F8B26054940005BA0CB /* AppDelegate.swift */,
 				4D777F8D26054940005BA0CB /* SceneDelegate.swift */,
-				4D777F8F26054940005BA0CB /* ViewController.swift */,
-				4D777F9126054940005BA0CB /* Main.storyboard */,
+				4D777FC326054A37005BA0CB /* Files */,
+				4D777FF326085B3A005BA0CB /* Models */,
+				4D777FFA26085BDB005BA0CB /* ModelControllers */,
+				4DECC4BD2608645C0088920F /* ViewControllers */,
+				4DECC4C12608646C0088920F /* Views */,
+				4DE7E17726085DAA00175FB7 /* Utilities */,
 				4D777F9426054942005BA0CB /* Assets.xcassets */,
 				4D777F9626054942005BA0CB /* LaunchScreen.storyboard */,
 				4D777F9926054942005BA0CB /* Info.plist */,
@@ -110,22 +147,83 @@
 			path = FitbodOneRepMaxAssessment;
 			sourceTree = "<group>";
 		};
-		4D777FA126054942005BA0CB /* FitbodOneRepMaxAssessmentTests */ = {
+		4D777FC326054A37005BA0CB /* Files */ = {
 			isa = PBXGroup;
 			children = (
-				4D777FA226054942005BA0CB /* FitbodOneRepMaxAssessmentTests.swift */,
-				4D777FA426054942005BA0CB /* Info.plist */,
+				4D777FBE26054A32005BA0CB /* workoutData.txt */,
 			);
-			path = FitbodOneRepMaxAssessmentTests;
+			path = Files;
 			sourceTree = "<group>";
 		};
-		4D777FAC26054942005BA0CB /* FitbodOneRepMaxAssessmentUITests */ = {
+		4D777FF326085B3A005BA0CB /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				4D777FAD26054942005BA0CB /* FitbodOneRepMaxAssessmentUITests.swift */,
-				4D777FAF26054942005BA0CB /* Info.plist */,
+				4D777FEE26085B1F005BA0CB /* ExerciseHistory.swift */,
+				4D77800B26085D5B005BA0CB /* Workout.swift */,
+				4DECC4DA26094A2D0088920F /* WorkoutError.swift */,
 			);
-			path = FitbodOneRepMaxAssessmentUITests;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4D777FFA26085BDB005BA0CB /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D777FCC26054D7E005BA0CB /* WorkoutController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		4DE7E17726085DAA00175FB7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4D777FE52606DF29005BA0CB /* ChartDataFactory.swift */,
+				4DECC4B326085E040088920F /* ORMDateFormatter.swift */,
+				4DECC4B826085F0A0088920F /* Double+StringValue.swift */,
+				4DECC4C5260866020088920F /* DateValueFormatter.swift */,
+				4DECC4CA2608664A0088920F /* Chartable.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4DECC4BD2608645C0088920F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D777F9126054940005BA0CB /* Main.storyboard */,
+				4D777F8F26054940005BA0CB /* ViewController.swift */,
+				4D777FE02605B098005BA0CB /* ChartViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4DECC4C12608646C0088920F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D777FD126056174005BA0CB /* OneRepMaxTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		87BBF4724D469EBF9881EA39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C41FA8ADD07BE5B5D989EF30 /* Pods-FitbodOneRepMaxAssessment.debug.xcconfig */,
+				EC9439A69E10BCBA8FCA15E7 /* Pods-FitbodOneRepMaxAssessment.release.xcconfig */,
+				F5885802A1F13EBED468DAFB /* Pods-FitbodOneRepMaxAssessment-FitbodOneRepMaxAssessmentUITests.debug.xcconfig */,
+				7786844C5AF57237A42C68D7 /* Pods-FitbodOneRepMaxAssessment-FitbodOneRepMaxAssessmentUITests.release.xcconfig */,
+				D27F8A5B32F9C3CE61D6406A /* Pods-FitbodOneRepMaxAssessmentTests.debug.xcconfig */,
+				5C5CE6FA4C06202A6DBF0577 /* Pods-FitbodOneRepMaxAssessmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DE38E8B4EC60E3A009396E0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA7BE0D9668427468867C2F5 /* Pods_FitbodOneRepMaxAssessment.framework */,
+				4362EE9039F52F4FB5B8A519 /* Pods_FitbodOneRepMaxAssessment_FitbodOneRepMaxAssessmentUITests.framework */,
+				AD24073620C72D231E681BF9 /* Pods_FitbodOneRepMaxAssessmentTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D777FB226054942005BA0CB /* Build configuration list for PBXNativeTarget "FitbodOneRepMaxAssessment" */;
 			buildPhases = (
+				BDB99D3C4F6F1CE34F37CF45 /* [CP] Check Pods Manifest.lock */,
 				4D777F8426054940005BA0CB /* Sources */,
 				4D777F8526054940005BA0CB /* Frameworks */,
 				4D777F8626054940005BA0CB /* Resources */,
+				767BA9E003FDB81571A92D46 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +252,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D777FB526054942005BA0CB /* Build configuration list for PBXNativeTarget "FitbodOneRepMaxAssessmentTests" */;
 			buildPhases = (
+				4A7BE5204209CA92139F59D5 /* [CP] Check Pods Manifest.lock */,
 				4D777F9A26054942005BA0CB /* Sources */,
 				4D777F9B26054942005BA0CB /* Frameworks */,
 				4D777F9C26054942005BA0CB /* Resources */,
@@ -170,9 +271,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D777FB826054942005BA0CB /* Build configuration list for PBXNativeTarget "FitbodOneRepMaxAssessmentUITests" */;
 			buildPhases = (
+				DB07225C1DE24B8628077306 /* [CP] Check Pods Manifest.lock */,
 				4D777FA526054942005BA0CB /* Sources */,
 				4D777FA626054942005BA0CB /* Frameworks */,
 				4D777FA726054942005BA0CB /* Resources */,
+				7B7D5C1A39B2408B8B589490 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +336,7 @@
 			files = (
 				4D777F9826054942005BA0CB /* LaunchScreen.storyboard in Resources */,
 				4D777F9526054942005BA0CB /* Assets.xcassets in Resources */,
+				4D777FBF26054A32005BA0CB /* workoutData.txt in Resources */,
 				4D777F9326054940005BA0CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +357,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A7BE5204209CA92139F59D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitbodOneRepMaxAssessmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		767BA9E003FDB81571A92D46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitbodOneRepMaxAssessment/Pods-FitbodOneRepMaxAssessment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitbodOneRepMaxAssessment/Pods-FitbodOneRepMaxAssessment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitbodOneRepMaxAssessment/Pods-FitbodOneRepMaxAssessment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B7D5C1A39B2408B8B589490 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitbodOneRepMaxAssessment-FitbodOneRepMaxAssessmentUITests/Pods-FitbodOneRepMaxAssessment-FitbodOneRepMaxAssessmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitbodOneRepMaxAssessment-FitbodOneRepMaxAssessmentUITests/Pods-FitbodOneRepMaxAssessment-FitbodOneRepMaxAssessmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitbodOneRepMaxAssessment-FitbodOneRepMaxAssessmentUITests/Pods-FitbodOneRepMaxAssessment-FitbodOneRepMaxAssessmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDB99D3C4F6F1CE34F37CF45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitbodOneRepMaxAssessment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB07225C1DE24B8628077306 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitbodOneRepMaxAssessment-FitbodOneRepMaxAssessmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D777F8426054940005BA0CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4D777F9026054940005BA0CB /* ViewController.swift in Sources */,
+				4D777FEF26085B1F005BA0CB /* ExerciseHistory.swift in Sources */,
+				4DECC4C6260866020088920F /* DateValueFormatter.swift in Sources */,
+				4D777FE12605B098005BA0CB /* ChartViewController.swift in Sources */,
+				4DECC4B426085E040088920F /* ORMDateFormatter.swift in Sources */,
+				4DECC4B926085F0A0088920F /* Double+StringValue.swift in Sources */,
+				4DECC4DB26094A2D0088920F /* WorkoutError.swift in Sources */,
 				4D777F8C26054940005BA0CB /* AppDelegate.swift in Sources */,
 				4D777F8E26054940005BA0CB /* SceneDelegate.swift in Sources */,
+				4D77800C26085D5B005BA0CB /* Workout.swift in Sources */,
+				4D777FD226056174005BA0CB /* OneRepMaxTableViewCell.swift in Sources */,
+				4D777FE62606DF29005BA0CB /* ChartDataFactory.swift in Sources */,
+				4DECC4CB2608664A0088920F /* Chartable.swift in Sources */,
+				4D777FCD26054D7E005BA0CB /* WorkoutController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +486,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D777FA326054942005BA0CB /* FitbodOneRepMaxAssessmentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +493,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D777FAE26054942005BA0CB /* FitbodOneRepMaxAssessmentUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +649,7 @@
 		};
 		4D777FB326054942005BA0CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C41FA8ADD07BE5B5D989EF30 /* Pods-FitbodOneRepMaxAssessment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +669,7 @@
 		};
 		4D777FB426054942005BA0CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC9439A69E10BCBA8FCA15E7 /* Pods-FitbodOneRepMaxAssessment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +689,7 @@
 		};
 		4D777FB626054942005BA0CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D27F8A5B32F9C3CE61D6406A /* Pods-FitbodOneRepMaxAssessmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +712,7 @@
 		};
 		4D777FB726054942005BA0CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C5CE6FA4C06202A6DBF0577 /* Pods-FitbodOneRepMaxAssessmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +735,7 @@
 		};
 		4D777FB926054942005BA0CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5885802A1F13EBED468DAFB /* Pods-FitbodOneRepMaxAssessment-FitbodOneRepMaxAssessmentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +756,7 @@
 		};
 		4D777FBA26054942005BA0CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7786844C5AF57237A42C68D7 /* Pods-FitbodOneRepMaxAssessment-FitbodOneRepMaxAssessmentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
